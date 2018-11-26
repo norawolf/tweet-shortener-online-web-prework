@@ -29,10 +29,8 @@ def word_substituter(tweet)
 # let(:tweets) {[tweet_one, tweet_two, tweet_three, tweet_four, tweet_five]}
 
 
-def bulk_tweet_shortener(all_tweets)
-  shortened_tweets = []
-  all_tweets.each do |tweets|
-    shortened_tweets << word_substituter(tweets)
-  end
-  puts shortened_tweets.join(' ')
+def bulk_tweet_shortener(tweets)
+tweets.each do |tweet|
+puts word_substituter(tweet)
+end
 end
