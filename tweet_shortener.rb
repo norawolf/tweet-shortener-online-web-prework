@@ -7,6 +7,7 @@ def dictionary
                   "too" => "2",
                   "two" => "2",
                   "be" => "b",
+                  "for" => "4",
                   "you" => "u",
                   "at" => "@",
                   "and" => "&"
